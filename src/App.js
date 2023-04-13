@@ -7,10 +7,13 @@ import PropsFunctional from './components/PropsFunctional';
 function App() {
   return (
     <div className="App">
+      //Class Component and Functional Component
       <Hello/>
       <Hi/>
+      //Props on Class and Functional Component
       <PropsFunctional name = "Abrar" heroName  = "Super Man"/>
       <PropsClass name = "Nadia" heroName = "Wonder Woman"/>
+      //state on Class Component
     </div>
   );
 }
