@@ -1,5 +1,6 @@
 import './App.css';
 import Counter from './components/Counter';
+import GreetUser from './components/GreetUser';
 import Hello from './components/Hello';
 import Hi from './components/Hi';
 import PropsClass from './components/PropsClass';
@@ -15,6 +16,7 @@ function App() {
       <PropsClass name="Nadia" heroName="Wonder Woman of Bangladesh" />
       <State />
       <Counter />
+      <GreetUser/>
     </div>
   );
 }
