@@ -3,6 +3,7 @@ import Counter from './components/Counter';
 import GreetUser from './components/GreetUser';
 import Hello from './components/Hello';
 import Hi from './components/Hi';
+import PersonList from './components/PersonList';
 import PropsClass from './components/PropsClass';
 import PropsFunctional from './components/PropsFunctional';
 import State from './components/State';
@@ -17,6 +18,7 @@ function App() {
       <State />
       <Counter />
       <GreetUser/>
+      <PersonList/>
     </div>
   );
 }
