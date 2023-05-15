@@ -1,5 +1,6 @@
 import './App.css';
 import Counter from './components/Counter';
+import Form from './components/Form';
 import GreetUser from './components/GreetUser';
 import Hello from './components/Hello';
 import Hi from './components/Hi';
@@ -19,6 +20,7 @@ function App() {
       <Counter />
       <GreetUser/>
       <PersonList/>
+      <Form/>
     </div>
   );
 }
