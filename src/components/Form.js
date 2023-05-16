@@ -5,7 +5,7 @@ class Form extends Component {
     return (
       <div>
         <form action="">
-          <label htmlFor="">User Name : </label>
+          <label>Enter Username: </label>
           <input type="text" />
         </form>
       </div>
