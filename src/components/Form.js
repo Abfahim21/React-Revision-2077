@@ -20,7 +20,13 @@ class Form extends Component {
           <label>Enter Username: </label>
           <input type="text" value={this.state.userName} onChange={this.handleUserNameChange}/>
         </form>
+        <div>
+          <label>Comment: </label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
       </div>
+      
+      
     )
   }
 }
