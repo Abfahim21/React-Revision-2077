@@ -20,6 +20,9 @@ class Form extends Component {
       comment : event.target.value
     })
   }
+  handleTopicChange = event =>{
+
+  }
   render() {
     return (
       <div>
