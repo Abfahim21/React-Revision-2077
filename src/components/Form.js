@@ -7,7 +7,7 @@ class Form extends Component {
     this.state = {
        userName : '',
        comment : '',
-       select : 'react.js'
+       select : 'react.js',
     }
   }
   handleUserNameChange = (event) =>{
@@ -20,12 +20,17 @@ class Form extends Component {
       comment : event.target.value
     })
   }
-  handleTopicChange = event =>{
-
+  handleTopicChange = (event) =>{
+    this.setState({
+      topic: event.target.value
+    })
+  }
+  handleSubmit = event =>{
+    alert(`${this.state.userName} ${this.state.comment} ${this.state.topic}`)
   }
   render() {
     return (
-      <div>
+      <div onSubmit={this.handleSubmit}>
         <div>
           <form action="">
             <label>Enter Username: </label>
@@ -34,17 +39,18 @@ class Form extends Component {
         </div>
         <div>
           <label>Comment: </label>
-          <textarea name="" id="" value={this.state.handleCommentChange}></textarea>
+          <textarea value={this.state.comment} onChange={this.state.handleCommentChange}></textarea>
         </div>
         <div>
           <label>Select: </label>
-            <select name="" id="">
-            <option value="">React.js</option>
-            <option value="">Laravel</option>
-            <option value="">Angular.Js</option>
-            <option value="">Next.JS</option>
+            <select value={this.state.select} onChange={this.handleTopicChange}>
+            <option>React.js</option>
+            <option>Laravel</option>
+            <option>Angular.Js</option>
+            <option>Next.JS</option>
             </select>
         </div>
+        <button onClick={this.handleSubmit}>Submit</button>
       </div>
       
       
