@@ -5,7 +5,9 @@ class Form extends Component {
     super(props)
   
     this.state = {
-       userName : ''
+       userName : '',
+       comment : '',
+       select : 'react.js'
     }
   }
   handleUserNameChange = (event) =>{
@@ -13,16 +15,32 @@ class Form extends Component {
       userName : event.target.value
     })
   }
+  handleCommentChange =(event) =>{
+    this.setState({
+      comment : event.target.value
+    })
+  }
   render() {
     return (
       <div>
-        <form action="">
-          <label>Enter Username: </label>
-          <input type="text" value={this.state.userName} onChange={this.handleUserNameChange}/>
-        </form>
+        <div>
+          <form action="">
+            <label>Enter Username: </label>
+            <input type="text" value={this.state.userName} onChange={this.handleUserNameChange}/>
+          </form>
+        </div>
         <div>
           <label>Comment: </label>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <textarea name="" id="" value={this.state.handleCommentChange}></textarea>
+        </div>
+        <div>
+          <label>Select: </label>
+            <select name="" id="">
+            <option value="">React.js</option>
+            <option value="">Laravel</option>
+            <option value="">Angular.Js</option>
+            <option value="">Next.JS</option>
+            </select>
         </div>
       </div>
       
