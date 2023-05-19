@@ -50,10 +50,8 @@ class Form extends Component {
             <option>Next.JS</option>
             </select>
         </div>
-        <button onClick={this.handleSubmit}>Submit</button>
+        <button>Submit</button>
       </div>
-      
-      
     )
   }
 }
