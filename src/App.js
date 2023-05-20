@@ -6,6 +6,7 @@ import Form from './components/Form';
 import GreetUser from './components/GreetUser';
 import Hello from './components/Hello';
 import Hi from './components/Hi';
+import HookCounterObject from './components/HookCounterObject';
 import PersonList from './components/PersonList';
 import PropsClass from './components/PropsClass';
 import PropsFunctional from './components/PropsFunctional';
@@ -24,9 +25,13 @@ function App() {
       <PersonList/>
       <Form/>
       <h2>React Hook</h2>
+      <h3>useState Hook</h3>
       <CounterHook/>
       <h3>Counter Hook with Prev State</h3>
       <CounterHookPrevState/>
+
+      <h2>useState with Object</h2>
+      <HookCounterObject/>
     </div>
   );
 }
