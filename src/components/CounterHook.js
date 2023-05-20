@@ -5,6 +5,7 @@ export default function CounterHook() {
   return (
     <div>
         <button onClick={()=> setCount(count+1)}>Increase {count}</button>
+        <button onClick={()=>setCount(0)}>Reset</button>
     </div>
   )
 }

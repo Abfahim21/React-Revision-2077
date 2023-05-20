@@ -1,6 +1,7 @@
 import './App.css';
 import Counter from './components/Counter';
 import CounterHook from './components/CounterHook';
+import CounterHookPrevState from './components/CounterHookPrevState';
 import Form from './components/Form';
 import GreetUser from './components/GreetUser';
 import Hello from './components/Hello';
@@ -24,6 +25,8 @@ function App() {
       <Form/>
       <h2>React Hook</h2>
       <CounterHook/>
+      <h3>Counter Hook with Prev State</h3>
+      <CounterHookPrevState/>
     </div>
   );
 }
