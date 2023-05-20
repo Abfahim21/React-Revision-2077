@@ -4,7 +4,7 @@ export default function CounterHook() {
     const[ count, setCount ] = useState(0)
   return (
     <div>
-        <Button>Increase {count}</Button>
+        <button onClick={()=> setCount(count+1)}>Increase {count}</button>
     </div>
   )
 }

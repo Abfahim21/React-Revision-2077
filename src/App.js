@@ -1,5 +1,6 @@
 import './App.css';
 import Counter from './components/Counter';
+import CounterHook from './components/CounterHook';
 import Form from './components/Form';
 import GreetUser from './components/GreetUser';
 import Hello from './components/Hello';
@@ -21,6 +22,8 @@ function App() {
       <GreetUser/>
       <PersonList/>
       <Form/>
+      <h2>React Hook</h2>
+      <CounterHook/>
     </div>
   );
 }
