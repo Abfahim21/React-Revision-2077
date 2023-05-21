@@ -34,6 +34,8 @@ function App() {
 
       <h2>useState with Object</h2>
       <HookCounterObject/>
+
+      <h2>useState with Array</h2>
     </div>
   );
 }
