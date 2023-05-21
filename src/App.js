@@ -24,9 +24,11 @@ function App() {
       <GreetUser/>
       <PersonList/>
       <Form/>
+
       <h2>React Hook</h2>
       <h3>useState Hook</h3>
       <CounterHook/>
+      
       <h3>Counter Hook with Prev State</h3>
       <CounterHookPrevState/>
 
