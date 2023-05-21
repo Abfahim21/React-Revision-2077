@@ -1,4 +1,5 @@
 import './App.css';
+import UseStatewithArray from './components/UseStatewithArray';
 import Counter from './components/Counter';
 import CounterHook from './components/CounterHook';
 import CounterHookPrevState from './components/CounterHookPrevState';
@@ -36,6 +37,7 @@ function App() {
       <HookCounterObject/>
 
       <h2>useState with Array</h2>
+      <UseStatewithArray/>
     </div>
   );
 }

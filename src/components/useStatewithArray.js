@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function useStatewithArray() {
+function UseStatewithArray() {
     const[items, setItems] =useState([])
 
     const addItems = () =>{
@@ -11,7 +11,7 @@ function useStatewithArray() {
     }
   return (
     <div>
-        <button onClick={addItem}>Add a Number</button>
+        <button onClick={addItems}>Add a Number</button>
         <ul>
             {items.map(item =>(
                 <li key={item.id}>
@@ -23,4 +23,4 @@ function useStatewithArray() {
   )
 }
 
-export default useStatewithArray
+export default UseStatewithArray
