@@ -10,7 +10,7 @@ class LifeCycleMethodA extends Component {
       }
       console.log("Component A constructor")
     }
-    static getDerivedStateFromProps() {
+    static getDerivedStateFromProps(props, state) {
         console.log("Component A getDerivedStateFromProps")
         return null
     }
