@@ -22,7 +22,7 @@ export default function PersonList() {
             skill: 'Angular.JS'
         }
     ]
-    const PersonList = persons.map(person =><Person key={persons.id} person ={person}/>)
+    const PersonList = persons.map(person =><Person key={person.id} person ={person}/>)
   return (
     <div>
         {PersonList}
