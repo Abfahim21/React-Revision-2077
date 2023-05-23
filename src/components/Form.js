@@ -17,7 +17,7 @@ class Form extends Component {
   }
   handleCommentChange =(event) =>{
     this.setState({
-      comment : event.target.value
+      comments : event.target.value
     })
   }
   handleTopicChange = (event) =>{
@@ -31,7 +31,7 @@ class Form extends Component {
   }
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <div onSubmit={this.handleSubmit}>
         <div>
           <form action="">
             <label>Enter Username: </label>
@@ -52,7 +52,7 @@ class Form extends Component {
             </select>
         </div>
         <button type='submit'>Submit</button>
-      </form>
+      </div>
     )
   }
 }
