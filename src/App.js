@@ -12,6 +12,7 @@ import PersonList from './components/PersonList';
 import PropsClass from './components/PropsClass';
 import PropsFunctional from './components/PropsFunctional';
 import State from './components/State';
+import LifeCycleMethodA from './components/LifeCycleMethodA';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
 
       <h2>useState with Array</h2>
       <UseStatewithArray/>
+
+      <h2>Life Cycle Method - Mounting</h2>
+      <LifeCycleMethodA/>
     </div>
   );
 }
