@@ -21,7 +21,7 @@ class LifeCycleMethodA extends Component {
     console.log("Component A render")
     return (
       <div>
-        <p>LifeCycleMethodA</p>
+        <p>LifeCycleMethod A</p>
         <LifeCycleMethodB/>
       </div>
     )

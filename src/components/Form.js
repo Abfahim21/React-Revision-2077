@@ -33,7 +33,7 @@ class Form extends Component {
     return (
       <div onSubmit={this.handleSubmit}>
         <div>
-          <form action="">
+          <form>
             <label>Enter Username: </label>
             <input type="text" value={this.state.userName} onChange={this.handleUserNameChange}/>
           </form>
