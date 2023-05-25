@@ -13,6 +13,7 @@ import PropsClass from './components/PropsClass';
 import PropsFunctional from './components/PropsFunctional';
 import State from './components/State';
 import LifeCycleMethodA from './components/LifeCycleMethodA';
+import CounterUseEffectHook from './components/CounterUseEffectHook';
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
 
       <h2>Life Cycle Method - Mounting</h2>
       <LifeCycleMethodA/>
+
+      <h2>Use Effect Hook Counter</h2>
+      <CounterUseEffectHook/>
     </div>
   );
 }
