@@ -15,6 +15,7 @@ import State from './components/State';
 import LifeCycleMethodA from './components/LifeCycleMethodA';
 import CounterUseEffectHook from './components/CounterUseEffectHook';
 import ClassMouse from './components/ClassMouse';
+import MouseHook from './components/MouseHook';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
       <p>By Class </p>
       <ClassMouse/>
       <p>By Hook</p>
+      <MouseHook/>
     </div>
   );
 }
