@@ -14,6 +14,7 @@ import PropsFunctional from './components/PropsFunctional';
 import State from './components/State';
 import LifeCycleMethodA from './components/LifeCycleMethodA';
 import CounterUseEffectHook from './components/CounterUseEffectHook';
+import ClassMouse from './components/ClassMouse';
 
 function App() {
   return (
@@ -46,6 +47,11 @@ function App() {
 
       <h2>Use Effect Hook Counter</h2>
       <CounterUseEffectHook/>
+
+      <h2>Use Effect runs only once</h2>
+      <p>By Class </p>
+      <ClassMouse/>
+      <p>By Hook</p>
     </div>
   );
 }
