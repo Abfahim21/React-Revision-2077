@@ -18,6 +18,7 @@ import ClassMouse from './components/ClassMouse';
 import MouseHook from './components/MouseHook';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
+import DataFetcingAxios from './components/DataFetcingAxios';
 
 function App() {
   return (
@@ -62,6 +63,9 @@ function App() {
 
       <h2>Interval timer Functional Component by HOOK</h2>
       <IntervalHookCounter/>
+
+      <h2>Data Fetching by AXIOS</h2>
+      <DataFetcingAxios/>
     </div>
   );
 }
