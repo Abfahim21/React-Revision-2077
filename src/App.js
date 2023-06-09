@@ -16,6 +16,7 @@ import LifeCycleMethodA from './components/LifeCycleMethodA';
 import CounterUseEffectHook from './components/CounterUseEffectHook';
 import ClassMouse from './components/ClassMouse';
 import MouseHook from './components/MouseHook';
+import IntervalClassCounter from './components/IntervalClassCounter';
 
 function App() {
   return (
@@ -54,6 +55,9 @@ function App() {
       <ClassMouse/>
       <p>By Hook</p>
       <MouseHook/>
+
+      <h2>Interval timer class Component</h2>
+      <IntervalClassCounter/>
     </div>
   );
 }
