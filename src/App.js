@@ -17,6 +17,7 @@ import CounterUseEffectHook from './components/CounterUseEffectHook';
 import ClassMouse from './components/ClassMouse';
 import MouseHook from './components/MouseHook';
 import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
 
 function App() {
   return (
@@ -58,6 +59,9 @@ function App() {
 
       <h2>Interval timer class Component</h2>
       <IntervalClassCounter/>
+
+      <h2>Interval timer Functional Component by HOOK</h2>
+      <IntervalHookCounter/>
     </div>
   );
 }
