@@ -19,6 +19,7 @@ import MouseHook from './components/MouseHook';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetcingAxios from './components/DataFetcingAxios';
+import DataFetchingPost from './components/DataFetchingPost';
 
 function App() {
   return (
@@ -66,6 +67,9 @@ function App() {
 
       <h2>Data Fetching by AXIOS</h2>
       <DataFetcingAxios/>
+
+      <h2>Specific Data Fetching by axios</h2>
+      <DataFetchingPost/>
     </div>
   );
 }
