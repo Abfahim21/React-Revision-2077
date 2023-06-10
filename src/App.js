@@ -20,6 +20,7 @@ import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetcingAxios from './components/DataFetcingAxios';
 import DataFetchingPost from './components/DataFetchingPost';
+import ComponentX from './components/ComponentX';
 
 function App() {
   return (
@@ -70,6 +71,9 @@ function App() {
 
       <h2>Specific Data Fetching by axios</h2>
       <DataFetchingPost/>
+
+      <h2>useContext Hook</h2>
+      <ComponentX/>
     </div>
   );
 }

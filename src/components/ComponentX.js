@@ -1,16 +1,18 @@
 import React from 'react'
 import ComponentY from './ComponentY'
 
+export const UserName = React.createContext()
+export const ChannelName = React.createContext()
+
 function ComponentX() {
-  const userName = React.createContext()
-  const channelName = React.createContext()
+
   return (
     <div>
-      <channelName.Provider value={'Codevolution'}>
-        <userName.Provider value={'Viswas'}>
-          <ComponentY/>
-        </userName.Provider>
-      </channelName.Provider>
+      <UserName.Provider value={'Viswas'}>
+        <ChannelName.Provider value={'Codevolution'}>
+          <ComponentY />
+        </ChannelName.Provider>
+      </UserName.Provider>
     </div>
   )
 }
